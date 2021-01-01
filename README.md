@@ -1,4 +1,7 @@
 # Add a Cookie Consent modal to your Laravel application
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Software License][ico-license]](LICENSE)
+[![Total Downloads][ico-downloads]][link-downloads]
 
 **Cookie consent modal and notification for laravel**
 
@@ -50,3 +53,12 @@ The published modal view will be copied to the following folder:
 resources/views/vendor/cookie-consent/components/consent-modal.php
 ```
 
+## License
+
+This package is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[link-downloads]: https://packagist.org/packages/jorgb/cookie-consent
+[ico-downloads]: https://img.shields.io/packagist/dt/jorgb/cookie-consent
+[ico-version]: https://img.shields.io/packagist/v/jorgb/cookie-consent.svg?style=flat-square
+[link-packagist]: https://packagist.org/packages/jorgb/cookie-consent
