@@ -1,0 +1,31 @@
+{
+    "name": "jorgb/cookie-consent",
+    "description": "Laravel cookie consent package to easily add cookie consent to app.",
+    "type": "package",
+    "authors": [
+        {
+            "name": "JorgB",
+            "email": "jorg@jorgb.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4|^8.0",
+        "laravel/framework": "^8.12",
+        "livewire/livewire": "^2.3"
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jorgb\\CookieConsent\\CookieConsentServiceProvider"
+            ]
+        }
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Jorgb\\CookieConsent\\": "src"
+        }
+    }
+}
