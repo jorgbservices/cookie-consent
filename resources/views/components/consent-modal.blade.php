@@ -22,10 +22,12 @@
                     <div class="mt-2 text-gray-500">
                         <div class="space-y-2">
                             <p>Door op OK te klikken gaat u akkoord met het gebruik van Cookies.</p>
-                            @if(config('cookie-consent.show_policies'))
+                            @if(config('cookie-consent.show_cookie_policy'))
                             <div class="hover:text-blue-500">
                                 <button wire:click="toggleCookieModal">Toon cookie beleid</button>
                             </div>
+                            @endif
+                            @if(config('cookie-consent.show_privacy_policy'))
                             <div>
                                 <button wire:click="togglePrivacyModal" class="hover:text-blue-500">Toon privacy beleid</button>
                             </div>
